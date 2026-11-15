@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "relics": [
+    {"id": "brass-lens", "name": "Brass Lens"},
+    {"id": "trail-compass", "name": "Trail Compass"},
+    {"id": "stone-token", "name": "Stone Token"},
+    {"id": "lantern", "name": "Paper Lantern"},
+    {"id": "tide-knot", "name": "Tide Knot"}
+  ],
+  "champions": [
+    {
+      "id": "courier",
+      "name": "Aven, Canyon Courier",
+      "region": "Amber Ridge",
+      "aliases": ["Aven", "Курьер"],
+      "plan": "Open with a cheap scout. Save your movement bonus until your second unit can use it.",
+      "builds": [
+        {"id": "courier/quick-route", "title": "Quick Route", "stars": 2, "level": 8, "slots": [["brass-lens", "trail-compass"], ["lantern"]]},
+        {"id": "courier/safe-landing", "title": "Safe Landing", "slots": [["stone-token"], ["trail-compass"]]}
+      ]
+    },
+    {
+      "id": "keeper",
+      "name": "Mira, Tidekeeper",
+      "region": "Lowtide Shore",
+      "aliases": ["Mira", "Хранительница прилива"],
+      "plan": "Leave one slot open for your next ally and keep a defensive option for the first hard exchange.",
+      "builds": [
+        {"id": "keeper/ebb-and-flow", "title": "Ebb and Flow", "stars": 1, "level": 5, "slots": [["tide-knot"], ["stone-token", "lantern"]]}
+      ]
+    },
+    {
+      "id": "warden",
+      "name": "Torren, Gate Warden",
+      "region": "Highland Roads",
+      "aliases": ["Torren", "Страж"],
+      "plan": "Build a stable board before committing your largest unit. Keep your opening hand inexpensive.",
+      "builds": [
+        {"id": "warden/hold-the-gate", "title": "Hold the Gate", "stars": 3, "level": 12, "slots": [["stone-token"], ["brass-lens"], ["trail-compass", "lantern"]]}
+      ]
+    }
+  ]
+}
